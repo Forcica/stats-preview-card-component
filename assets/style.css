@@ -1,1 +1,116 @@
-* 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0A0C1B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.firstdivall {
+    width: 1108px;
+    height: 445px;
+    display: flex;
+    flex-direction: row;
+}
+
+.seconddivleft {
+    background-color: hsl(244, 38%, 16%);
+    height: 445px;
+    width: 570px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.firstdivall #imageidright {
+    position: relative;
+    height: 445px;
+    width: 538px;
+    background-image: url(../images/image-header-desktop.jpg);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.firstdivall #imageidright::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 64%, 61%, 0.418);
+    z-index: 10;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bigtitle h2 {
+    font-family: 'Lexend Deca';
+    color: white;
+    font-size: 30px;
+    padding-left: 73px;
+    font-weight: 700;
+    padding-top: 73px;
+}
+
+.bigtitle span {
+    color: hsl(277, 64%, 61%);
+}
+
+.bigtitle p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 12.5px;
+    font-family: 'Inter';
+    font-weight: 200;
+    padding-left: 73px;
+    padding-top: 15px;
+    line-height: 1.8;
+}
+
+.detailsdiv {
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5;
+    padding-left: 73px;
+    padding-top: 77px;
+}
+
+.detailsdiv h4 {
+    font-family: 'Lexend Deca';
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.detailsdiv p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 12.5px;
+    font-family: 'Inter';
+    font-weight: 200;
+}
+
+.detailsdivone {
+    height: 45px;
+    width: 70px;
+    text-align: left;
+}
+
+.detailsdivtwo {
+    padding-left: 63px;
+    text-align: left;
+}
+
+.detailsdivtree {
+    padding-left: 63px;
+}
+
+.attribution {
+    color: white;
+}

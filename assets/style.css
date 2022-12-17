@@ -113,4 +113,6 @@ body {
 
 .attribution {
     color: white;
+    position: fixed;
+    bottom: 10px;
 }
